@@ -489,7 +489,7 @@ view: TPC_DS_Benchmark_Model {
         label: "Store Quantity Sold - DG"
         group_label: "Store Sales Measures"
         description: "store_sales.ss_quantity_sum"
-        type: sum
+        type: max
         sql: ${TABLE}."Store Quantity Sold";;
     }
 
