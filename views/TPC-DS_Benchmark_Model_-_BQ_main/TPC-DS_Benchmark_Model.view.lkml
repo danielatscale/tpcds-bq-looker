@@ -486,7 +486,7 @@ view: TPC_DS_Benchmark_Model {
     }
 
     measure: Store_Quantity_Sold {
-        label: "Store Quantity Sold"
+        label: "Store Quantity Sold - DG"
         group_label: "Store Sales Measures"
         description: "store_sales.ss_quantity_sum"
         type: sum
