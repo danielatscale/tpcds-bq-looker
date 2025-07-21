@@ -397,6 +397,29 @@ view: TPC_DS_Benchmark_Model {
         drill_fields: [Store_Dimension_d_store_county]
     }
 
+    dimension: Ship_Time_Series {
+        label: "Ship Time Series"
+        group_label: "Time Series"
+        type: string
+        description: "Time Series"
+        sql: ${TABLE}."Ship Time Series";;
+    }
+
+    dimension: Sold_Time_Series {
+        label: "Sold Time Series"
+        group_label: "Time Series"
+        type: string
+        description: "Time Series"
+        sql: ${TABLE}."Sold Time Series";;
+    }
+
+    dimension: Total_Percent {
+        label: "Total Percent"
+        group_label: "Total Percent"
+        type: string
+        description: "Total Percent"
+        sql: ${TABLE}."Total Percent";;
+    }
 
     measure: Store_Customer_Count {
         label: "Store Customer Count"
